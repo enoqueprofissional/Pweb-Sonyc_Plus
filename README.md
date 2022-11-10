@@ -11,7 +11,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 
 # 𓊈𒆜 CHAVE DE INSTALAÇÃO! 𒆜𓊉
 ```
-@sonyc_mod
+@sonycssh
 ```
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
@@ -75,8 +75,8 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 # 𓊈𒆜 CRÉDITOS: 𒆜𓊉
 ```
 
-@sonyc_mod
+@sonycssh
 ```
 
-# 𓊈𒆜 VPN SONYC_MOD: 𒆜𓊉
+# 𓊈𒆜 VPN SONYC SSH: 𒆜𓊉
 👉 
