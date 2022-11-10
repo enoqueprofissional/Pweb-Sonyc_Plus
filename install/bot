@@ -1,5 +1,5 @@
 #!/bin/bash
-[[ $(awk -F" " '{print $2}' /usr/lib/telegram) != "@swittecnologia" ]] && exit 0
+[[ $(awk -F" " '{print $2}' /usr/lib/telegram) != "@sonyc_mod" ]] && exit 0
 source apibot
 api_bot=$1
 id_admin=$2
@@ -871,8 +871,8 @@ sobremim() {
     msg="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
     msg+="<b>🤖 BOT PWEB 🤖</b>\n"
     msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n"
-    msg+="<b>Desenvolvido por:</b> @swittecnologia\n"
-    msg+="<b>Canal Oficial:</b> @swittecnologia\n\n"
+    msg+="<b>Desenvolvido por:</b> @sonyc_mod\n"
+    msg+="<b>Canal Oficial:</b> @sonyc_mod\n\n"
     msg+="Fui criado com o propósito de fornecer informações e ferramentas para gestão em servidores 🐧 GNU/Linux 🐧.\n\n"
     msg+="<b>Menu:</b> /menu\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \

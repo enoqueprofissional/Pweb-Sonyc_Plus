@@ -1,4 +1,4 @@
-#  𓊈𒆜 PAINEL VIP SWIT-T-PLUS 𒆜𓊉
+#  𓊈𒆜 PAINEL VIP SONYC-PLUS 𒆜𓊉
 
 ⚠ <b>SISTEMA SUPORTADO:</b></br>
 👉 <b>(UBUNTU 18)</b></br>
@@ -11,7 +11,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 
 # 𓊈𒆜 CHAVE DE INSTALAÇÃO! 𒆜𓊉
 ```
-sonycpweb
+@sonyc_mod
 ```
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
