@@ -246,8 +246,8 @@ clear
 echo ""
 echo -e "\E[44;1;37m    ATUALIZANDO O PAINEL     \E[0m"
 echo ""
-echo -e "WEB SONYC-SSH" | figlet
-echo -e "                              \033[1;31mBy @sonycssh\033[1;36m"
+echo -e "WEB SONYC SSH" | figlet
+echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m"
 echo ""
 clear
 senha=$(cut -d"'" -f2 /var/www/html/pages/system/pass.php)
@@ -307,7 +307,7 @@ sed -i "s;EMPRESA;$empresaatual;g" /var/www/html/admin/login.php > /dev/null 2>&
 sed -i "s;EMPRESA;$empresaatual;g" /var/www/html/apps/index.php > /dev/null 2>&1
 sed -i "s;EMPRESA;$empresaatual;g" /var/www/html/apps/termos.php > /dev/null 2>&1
 echo ""
-echo -e "\E[44;1;32m    PAINELWEB ATUALIZADO COM SUCESSO     \E[0m"
+echo -e "\E[44;1;32m    PAINEL WEB ATUALIZADO COM SUCESSO     \E[0m"
 echo ""
 echo -e "PAINEL WEB SONYC SSH" | figlet
 echo ""
@@ -363,7 +363,7 @@ exit;
 
 passdb=$(cut -d"'" -f2 /var/www/html/pages/system/pass.php)
 [[ $(mysql -h localhost -u root -p$passdb -e "show databases" | grep -wc sshplus) == '0' ]] && {
-echo -e "\n\033[1;31mSEU PAINELWEB NÃO É COMPATÍVEL!\033[0m"
+echo -e "\n\033[1;31mSEU PAINEL WEB NÃO É COMPATÍVEL!\033[0m"
 echo ""
 sleep 3
 echo -e "\033[1;31mRETORNANDO...\033[0m"
@@ -610,7 +610,7 @@ _________________________________________________
              jjl7u|__] |  |  |  |__| |__| | _ 
              |__] |__|  |  |    |  | |__| 
 _________________________________________________
-                                  BY @sonycssh
+                                  Modificado por @sonycssh
 
 FECHA
 
@@ -1066,11 +1066,11 @@ echo -e "\033[1;1;37m┃   \033[1;33m[\033[1;31m!\033[1;33m]       \033[1;31mINS
 } || {
 echo -e "\033[1;1;37m┃   \033[5;33m[\033[1;31m!\033[1;33m]     \033[1;31mATUALIZAÇÃO \033[1;32mVERSÃO: $verap \033[1;31mPARA O PWEB          \033[1;33m[\033[1;31m!\033[1;33m]\033[0m   \033[1;1;37m┃"
 }
-echo -e "\033[1;1;37m┃   \033[1;33m[\033[1;31m!\033[1;33m]       \033[1;31mINSTALADA \033[1;32mVERSÃO: $verw \033[1;31mDO PAINELWEB          \033[1;33m[\033[1;31m!\033[1;33m]\033[0m  \033[1;1;37m┃"
+echo -e "\033[1;1;37m┃   \033[1;33m[\033[1;31m!\033[1;33m]       \033[1;31mINSTALADA \033[1;32mVERSÃO: $verw \033[1;31mDO PAINEL WEB          \033[1;33m[\033[1;31m!\033[1;33m]\033[0m  \033[1;1;37m┃"
 [[ "$verw" = "$veraw" ]]  && {
     sleep 0.2
 } || {
-echo -e "\033[1;1;37m┃   \033[5;33m[\033[1;31m!\033[1;33m]     \033[1;31mATUALIZAÇÃO \033[1;32mVERSÃO: $veraw \033[1;31mPARA O PAINELWEB     \033[1;33m[\033[1;31m!\033[1;33m]\033[0m   \033[1;1;37m┃"
+echo -e "\033[1;1;37m┃   \033[5;33m[\033[1;31m!\033[1;33m]     \033[1;31mATUALIZAÇÃO \033[1;32mVERSÃO: $veraw \033[1;31mPARA O PAINEL WEB     \033[1;33m[\033[1;31m!\033[1;33m]\033[0m   \033[1;1;37m┃"
 }
 echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\033[0m"
 echo -e "\033[1;37m┃\033[38;5;82mSISTEMA              \033[1;37m| \033[38;5;82mMEMÓRIA RAM          \033[1;37m| \033[38;5;82mPROCESSADOR     \033[1;37m┃"
@@ -1078,7 +1078,7 @@ echo -e "┃\033[38;5;196mOS: \033[1;37m$_system   | \033[38;5;196mTOTAL:\033[1;
 echo -e "┃\033[38;5;196mHORÁRIO: \033[1;37m$_hora    | \033[38;5;196mEM USO: \033[1;37m$_usor     | \033[38;5;196mEM USO: \033[1;37m$_usop\033[0m   \033[1;37m┃"
 echo -e "┃\033[38;5;150mFIREWALL: $firew      \033[1;37m| \033[38;5;150mBOT PWEB: $botp      \033[1;37m| \033[38;5;150mAUTO EXE: $autm\033[0m \033[1;37m┃"
 echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\033[0m"
-echo -e "┃\033[1;31m[\033[1;36m01\033[1;31m] \033[1;37m• \033[1;33mATUALIZAR PAINELWEB SONYC-SSH \033[1;32m>\033[1;33m>\033[1;31m>  \033[0m \033[0m                    \033[1;37m┃"
+echo -e "┃\033[1;31m[\033[1;36m01\033[1;31m] \033[1;37m• \033[1;33mATUALIZAR PAINEL WEB SONYC SSH \033[1;32m>\033[1;33m>\033[1;31m>  \033[0m \033[0m                    \033[1;37m┃"
 echo -e "┃\033[1;31m[\033[1;36m02\033[1;31m] \033[1;37m• \033[1;33mALTERAR NOME DA LOGO \033[1;32m>\033[1;33m>\033[1;31m>\033[0m \033[0m                              \033[1;37m┃"
 echo -e "┃\033[1;31m[\033[1;36m03\033[1;31m] \033[1;37m• \033[1;33mRESTAURAR BANCO DE DADOS \033[1;32m>\033[1;33m>\033[1;31m>\033[0m \033[0m                          \033[1;37m┃"
 echo -e "┃\033[1;31m[\033[1;36m04\033[1;31m] \033[1;37m• \033[1;33mFIREWALL ORACLE/AWS/AZR \033[1;32m>\033[1;33m>\033[1;31m>\033[0m \033[0m                           \033[1;37m┃"

@@ -138,7 +138,7 @@ cat /dev/null > ~/.bash_history && history -c
 rm /bin/ubuinst* > /dev/null 2>&1
 exit;
 else
-  echo -e 'by: @sonycssh' >/usr/lib/telegram
+  echo -e 'Modificado por: @sonycssh' >/usr/lib/telegram
   msg -bar
   echo -e "\e[1;97m           \e[5m\033[1;100m   ATUALIZAÇÃO DO SISTEMA   \033[1;37m"
   msg -bar
@@ -332,8 +332,8 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
-echo -e "WEB SONYC-SSH" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mBy @sonycssh\033[1;36m" | lolcat
+echo -e "WEB SONYC SSH" | figlet | boxes -d stone -p a0v0 | lolcat
+echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m" | lolcat
 echo ""
 chave=$(curl -sSL "https://github.com/lucianolima2905/Pweb-Sonyc_Plus/raw/main/install/chave") &>/dev/null
 
@@ -375,8 +375,8 @@ install_continue2
 	sed -i "s/#PasswordAuthentication no/PasswordAuthentication yes/g" /etc/ssh/sshd_config
 } > /dev/null
 echo ""
-echo -e "WEB SONYC-SSH" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mBy @sonycssh\033[1;36m" | lolcat
+echo -e "WEB SONYC SSH" | figlet | boxes -d stone -p a0v0 | lolcat
+echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m" | lolcat
 echo ""
 echo -e "\033[1;36mDEFINA UMA NOVA SENHA PARA\033[0m" | lolcat
 echo -e "\033[1;36mO USUÁRIO ROOT DA VPS E\033[0m" | lolcat
@@ -397,8 +397,8 @@ tst_bkp
 clear
 sed -i "s;upload_max_filesize = 2M;upload_max_filesize = 256M;g" /etc/php/8.1/apache2/php.ini > /dev/null 2>&1
 sed -i "s;post_max_size = 8M;post_max_size = 256M;g" /etc/php/8.1/apache2/php.ini > /dev/null 2>&1
-echo -e "PAINEL WEB SONYC-SSH" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mBy @sonycssh\033[1;36m" | lolcat
+echo -e "PAINEL WEB SONYC SSH" | figlet | boxes -d stone -p a0v0 | lolcat
+echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m" | lolcat
 echo ""
 echo -e "\033[1;32mPAINEL INSTALADO COM SUCESSO!" | lolcat
 echo ""
