@@ -2,7 +2,7 @@
 
 ⚠ <b>SISTEMA SUPORTADO:</b></br>
 👉 <b>(UBUNTU 18)</b></br>
-⚠ <b>VPS PARA PAINEL WEB: https://www.avirahost.com.br/⚠</b></br>
+
 
 ```
 apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-Sonyc_Plus/raw/main/install/ubuinst.sh)
@@ -11,7 +11,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 
 # 𓊈𒆜 CHAVE DE INSTALAÇÃO! 𒆜𓊉
 ```
-@sonycssh
+@helpvpn
 ```
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
