@@ -74,7 +74,13 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 
 ![05](https://user-images.githubusercontent.com/65465300/201934715-f0ae20fe-d49c-469f-b9e7-fcafbb740bd0.png)
 
+## // CRÉDITOS //
 
+@crazy_vpn
+@nandoslayer
+@swittecnologia
+@Davidsdy
+@sonycssh
 
 # 𓊈𒆜 GRUPO SONYC SSH: 𒆜𓊉
 👉 https://t.me/sonycsshgp
