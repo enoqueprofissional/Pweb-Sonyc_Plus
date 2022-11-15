@@ -64,7 +64,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
 
-<img src="http://conecta4g.epizy.com/pweb/01.png" />
+![01](https://user-images.githubusercontent.com/65465300/201933925-90993364-fe92-4257-a611-9f92161bbdf2.png)
 
 ![Painel Revenda VPN Money](http://conecta4g.epizy.com/pweb/02.png)
 
