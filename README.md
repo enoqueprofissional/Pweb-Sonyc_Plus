@@ -5,7 +5,7 @@
 
 
 ```
-apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-Sonyc_Plus/raw/main/install/ubuinst.sh)
+apt install wget -y; bash <(wget -qO- https://github.com/enoqueprofissional/Pweb-Sonyc_Plus/raw/main/install/ubuinst.sh)
 ```
 </br>
 
@@ -16,7 +16,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-So
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
 ```
-apt install wget -y; bash <(wget -qO- https://github.com/lucianolima2905/Pweb-Sonyc_Plus/raw/main/install/sincpainel.sh)
+apt install wget -y; bash <(wget -qO- https://github.com/enoqueprofissional/Pweb-Sonyc_Plus/raw/main/install/sincpainel.sh)
 ```
 
 
